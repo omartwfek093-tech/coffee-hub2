@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+.navbar {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  height: auto;
+  padding: 10px;
+}
+.logo {
+  width: 300px;
+}
+.links {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.links a {
+  color: black;
+  font-weight: 600;
+  font-size: 25px;
+  transition: 0.3s;
+}
+.links a:hover {
+  color: #c7a17a;
+}
+body {
+  background-image: url(../picture/Picsart_25-12-02_00-02-05-410.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  padding: 20px;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  align-content: center;  
+  padding-top: 200px;
+  margin: auto;
+}
+.menu-card {
+  display: flex;
+  align-items: center;
+  background-color: burlywood;
+  border: 2px solid #000;
+  padding: 15px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+}
+.image-box img {
+  width: 70px;
+  height: auto;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.text-content {
+  flex-grow: 1;
+}
+
+.text-content h3 {
+  margin: 0 0 5px 0;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.text-content p {
+  margin: 0;
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.price-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-left: 2px solid #ccc;
+  padding-left: 15px;
+  margin-left: 15px;
+  height: 80%;
+}
+.price-box .amount {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000;
+  line-height: 1;
+}
+.price-box .currency {
+  font-size: 0.8rem;
+  color: #666;
+  font-weight: 700;
+  text-transform: uppercase;
+}

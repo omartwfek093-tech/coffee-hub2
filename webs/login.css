@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+     text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../picture/login.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.login-page{
+    background-color: blanchedalmond;
+    width: 50%;
+    float: right;
+    height: 100%;
+    text-align: center;
+    display:block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.login-logo{
+    width: 350px;
+    height: auto;
+
+}
+input{
+    width: 60%;
+    background-color: #3a2d26;
+    color:blanchedalmond;
+    height: 30px;
+    border: none;
+    margin: 15px ;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+a{
+    
+    background-color: #6f4e37;
+    color:blanchedalmond;
+    height: auto;
+    border: none;
+    margin: 15px ;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.2s;
+    margin-bottom: 30px;
+    
+}
+
+
+a:hover{
+    background-color: white;
+    color:#3a2d26;
+
+}
+input:hover{
+    background-color: rgb(241, 206, 139);
+    color:#3a2d26;
+}
+input::placeholder{
+    color:blanchedalmond;
+}
+.sign-up-btn{
+      background-color: #6f4e37;
+    color:blanchedalmond;
+    height: auto;
+    border: none;
+    margin: 15px ;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.2s;
+    margin-top: 30px;
+}
+.sign-up-btn:hover{
+    background-color: white;
+    color:#3a2d26;
+
+}
+

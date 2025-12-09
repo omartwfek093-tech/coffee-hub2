@@ -1,0 +1,255 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(../picture/Picsart_25-12-02_00-02-05-410.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.navbar {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  height: auto;
+  padding: 10px;
+}
+.logo {
+  width: 300px;
+}
+.links {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.links a {
+  color: black;
+  font-weight: 600;
+  font-size: 25px;
+  transition: 0.3s;
+}
+.links a:hover {
+  color: #c7a17a;
+}
+.coffee-menu {
+  max-width: 1200px;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: rgba(63, 37, 2, 0.5);
+}
+.coffee-span1 {
+  color: #c7a17a;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.coffee-span2 {
+  color: #c7a17a;
+  font-size: 25px;
+  font-weight: 600;
+  max-width: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu-text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-logo {
+  width: 400px;
+  height: 400px;
+}
+.coffee-btn {
+  background-color: black;
+  color: #c7a17a;
+  border: none;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: large;
+  font-weight: 900;
+  transition: 0.3s;
+  width: fit-content;
+}
+.coffee-btn:hover {
+  background-color: #c7a17a;
+  color: black;
+}
+
+.milkshake-menu {
+  max-width: 1200px;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: rgba(63, 37, 2, 0.5);
+}
+.milkshake-btn {
+  background-color: black;
+  color: beige;
+  border: none;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: large;
+  font-weight: 900;
+  transition: 0.3s;
+  width: fit-content;
+}
+.milkshake-btn:hover {
+  background-color: beige;
+  color: black;
+}
+.milkshake-span1 {
+  color: beige;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.milkshake-span2 {
+  color: beige;
+  font-size: 25px;
+  font-weight: 600;
+  max-width: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.juice-menu {
+  max-width: 1200px;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: rgba(63, 37, 2, 0.5);
+}
+.juice-span1 {
+  color: rgb(255, 51, 51);
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.juice-span2 {
+  color: rgb(255, 51, 51);
+  font-size: 25px;
+  font-weight: 600;
+  max-width: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.juice-btn {
+  background-color: black;
+  color: rgb(255, 51, 51);
+  border: none;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: large;
+  font-weight: 900;
+  transition: 0.3s;
+  width: fit-content;
+}
+.juice-btn:hover {
+  background-color: rgb(255, 51, 51);
+  color: black;
+}
+.smoothie-menu {
+  max-width: 1200px;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: rgba(63, 37, 2, 0.5);
+}
+.smoothie-span1 {
+  color: lightcoral;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.smoothie-span2 {
+  color: lightcoral;
+  font-size: 25px;
+  font-weight: 600;
+  max-width: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.smoothie-btn {
+  background-color: black;
+  color: lightcoral;
+  border: none;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: large;
+  font-weight: 900;
+  transition: 0.3s;
+  width: fit-content;
+}
+.smoothie-btn:hover {
+  background-color: lightcoral;
+  color: black;
+}
+.breakfast-menu {
+  max-width: 1200px;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: rgba(63, 37, 2, 0.5);
+}
+.breakfast-span1 {
+  color:#D9853B;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.breakfast-span2 {
+  color: #D9853B;
+  font-size: 25px;
+  font-weight: 600;
+  max-width: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.breakfast-btn {
+  background-color: black;
+  color: #D9853B;
+  border: none;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: large;
+  font-weight: 900;
+  transition: 0.3s;
+  width: fit-content;
+}
+.breakfast-btn:hover {
+  background-color: #D9853B;
+  color: black;
+}
