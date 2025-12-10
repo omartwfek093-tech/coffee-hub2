@@ -169,11 +169,11 @@ span {
 }
 
 #menu {
-  background-image: url(../picture/Gemini_Generated_Image_el7i03el7i03el7i.png);
+  background-image: url(Gemini_Generated_Image_el7i03el7i03el7i.png);
 }
 
 #best-sellers {
-  background-image: url(../picture/vip.jpg);
+  background-image: url(vip.jpg);
   background-size: cover;
 
   background-repeat: no-repeat;
@@ -279,7 +279,7 @@ span {
 
 /* home start */
 #home {
-  background-image: url(../picture/Gemini_Generated_Image_8wrzt18wrzt18wrz.png);
+  background-image: url(Gemini_Generated_Image_8wrzt18wrzt18wrz.png);
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
@@ -344,7 +344,7 @@ span {
   background-color: var(--bg-color);
   padding: 6rem 0;
   text-align: center;
-  background-image: url(../picture/Gemini_Generated_Image_pe2tc8pe2tc8pe2t.png);
+  background-image: url(Gemini_Generated_Image_pe2tc8pe2tc8pe2t.png);
   background-size: cover;
 
   background-repeat: no-repeat;
@@ -432,7 +432,7 @@ span {
 
 #footer .top {
   padding: 6rem 0;
-  background-image: url(../picture/footer-bg.png);
+  background-image: url(footer-bg.png);
   color: white;
   text-align: left;
   align-items: center;
